@@ -51,7 +51,7 @@ namespace Hospital
             _connectionToDB.Close();
         }
 
-        public DataSet getDataSet (string sqlStatement)
+        public DataSet getDataSet (String sqlStatement)
         {
             DataSet dataSet = new DataSet();
             openConnection();

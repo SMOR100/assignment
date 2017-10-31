@@ -16,6 +16,10 @@ namespace Hospital
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
+            //initilise the connection string
+            DatabaseConnection.ConnectionToString = Properties.Settings.Default.DataDBConnectionStr;
+
             Application.Run(new Login());
         }
     }

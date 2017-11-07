@@ -21,5 +21,17 @@ namespace Hospital
         {
 
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnReg_Pat_Click(object sender, EventArgs e)
+        {
+            RegisterPatient aa = new RegisterPatient();
+            aa.Show();
+            this.Hide();
+        }
     }
 }

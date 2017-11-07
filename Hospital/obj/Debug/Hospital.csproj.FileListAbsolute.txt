@@ -20,3 +20,4 @@ C:\Users\Samir\Desktop\Hospital\Hospital\obj\Debug\Hospital.Properties.Resources
 C:\Users\Samir\Desktop\Hospital\Hospital\obj\Debug\Hospital.csproj.GenerateResource.Cache
 C:\Users\Samir\Desktop\Hospital\Hospital\bin\Debug\Data.mdf
 C:\Users\Samir\Desktop\Hospital\Hospital\bin\Debug\Data_log.ldf
+C:\Users\Samir\Desktop\Hospital\Hospital\obj\Debug\Hospital.RegisterPatient.resources

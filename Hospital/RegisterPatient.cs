@@ -34,7 +34,7 @@ namespace Hospital
             string query = "Insert Into Patient ( PatientID, FirstName, LastName, EMail, MobileNumber) Values ('" + txtbID.Text.Trim() + "','" + txtbFirName.Text.Trim() + "','" + txtbLastName.Text.Trim() + "', '" + txtbMail.Text.Trim() + "','" + txtbNumber.Text.Trim() + "')"; 
             DataSet dsPatientTable = DatabaseConnection.getInstance().getDataSet(query);
             DataTable dtPatientTable = new DataTable();
-            dtPatientTable = dsPatientTable.Load(query);
+            dtPatientTable = dsPatientTable.Tables[0];
             
 
             if(dtPatientTable.Rows.Count != 0)

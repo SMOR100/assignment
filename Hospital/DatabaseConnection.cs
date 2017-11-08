@@ -61,5 +61,24 @@ namespace Hospital
             return dataSet;
         }
 
+        public int insert(string sqlQuery )
+        {
+            SqlCommand command = new SqlCommand();
+            command.CommandType = CommandType.Text;
+            command.CommandText = sqlQuery;
+            //command.Parameters.Add(new SqlParameter("Name", name));
+            //command.Parameters.Add(new SqlParameter("Age", age));
+
+            openConnection();
+            command.Connection = _connectionToDB;
+
+            int noRows = command.ExecuteNonQuery();
+
+            closeConnection();
+            return noRows;
+            //Console.WriteLine("n-" + noRows);
+        }
+
+
     }
 }

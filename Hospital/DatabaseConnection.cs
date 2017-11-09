@@ -76,7 +76,7 @@ namespace Hospital
 
             closeConnection();
             return noRows;
-            //Console.WriteLine("n-" + noRows);
+           
         }
 
 

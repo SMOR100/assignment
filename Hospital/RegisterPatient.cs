@@ -31,12 +31,11 @@ namespace Hospital
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string query = "Insert Into Patient ( PatientID, FirstName, LastName, EMail, MobileNumber) Values ('" + txtbID.Text + "','" + txtbFirName.Text + "','" + txtbLastName.Text + "', '" + txtbMail.Text + "','" + txtbNumber.Text + "')"; 
+            string query = "Insert Into Patient ( PatientID, FirstName, LastName, EMail, MobileNumber, DateOfBirth) Values ('" + txtbID.Text + "','" + txtbFirName.Text + "','" + txtbLastName.Text + "', '" + txtbMail.Text + "','" + txtbNumber.Text + "','" + dtbAge.Text + "')"; 
             int affectedRows = DatabaseConnection.getInstance().insert(query);
-          /*DataTable dtPatientTable = new DataTable();
-            //dtPatientTable = dsPatientTable.Tables[0];
+         
             
-*/
+
             if(affectedRows != 0)
             {
                 MessageBox.Show("Patient has been registered successfully!!!");

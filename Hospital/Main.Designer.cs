@@ -34,6 +34,7 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnExit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnReg_Pat
@@ -95,12 +96,24 @@
             this.label1.TabIndex = 5;
             this.label1.Text = "Welcome to Over Surgery";
             // 
+            // btnExit
+            // 
+            this.btnExit.Font = new System.Drawing.Font("Corbel", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnExit.Location = new System.Drawing.Point(525, 449);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(98, 42);
+            this.btnExit.TabIndex = 6;
+            this.btnExit.Text = "Exit";
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
-            this.ClientSize = new System.Drawing.Size(723, 514);
+            this.ClientSize = new System.Drawing.Size(687, 514);
+            this.Controls.Add(this.btnExit);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -123,5 +136,6 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnExit;
     }
 }

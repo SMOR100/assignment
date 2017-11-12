@@ -29,14 +29,31 @@ namespace Hospital
 
         private void btnReg_Pat_Click(object sender, EventArgs e)
         {
+            // Show register patient menu
             RegisterPatient aa = new RegisterPatient();
             aa.Show();
+            // hide main menu
             this.Hide();
         }
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            this.Close();
+            // exit from program
+            Application.Exit();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ManageAppoinments ma = new ManageAppoinments();
+            ma.Show();
+            this.Hide();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            CheckAvailability cv = new CheckAvailability();
+            cv.Show();
+            this.Hide();
         }
     }
 }

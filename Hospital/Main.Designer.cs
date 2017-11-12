@@ -43,7 +43,7 @@
             this.btnReg_Pat.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnReg_Pat.Location = new System.Drawing.Point(76, 181);
             this.btnReg_Pat.Name = "btnReg_Pat";
-            this.btnReg_Pat.Size = new System.Drawing.Size(163, 48);
+            this.btnReg_Pat.Size = new System.Drawing.Size(163, 66);
             this.btnReg_Pat.TabIndex = 0;
             this.btnReg_Pat.Text = "Register Patient";
             this.btnReg_Pat.UseVisualStyleBackColor = true;
@@ -51,18 +51,20 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(498, 181);
+            this.button2.Font = new System.Drawing.Font("Corbel", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button2.Location = new System.Drawing.Point(482, 181);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(125, 48);
+            this.button2.Size = new System.Drawing.Size(141, 66);
             this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
+            this.button2.Text = "Manage Appoinments";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(292, 181);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(126, 48);
+            this.button3.Size = new System.Drawing.Size(126, 66);
             this.button3.TabIndex = 2;
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
@@ -78,12 +80,14 @@
             // 
             // button5
             // 
+            this.button5.Font = new System.Drawing.Font("Corbel", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button5.Location = new System.Drawing.Point(76, 285);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(203, 60);
             this.button5.TabIndex = 4;
-            this.button5.Text = "button5";
+            this.button5.Text = "Check GP or nurse availability";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label1
             // 

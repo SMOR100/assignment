@@ -75,6 +75,7 @@ namespace Hospital
             int noRows = command.ExecuteNonQuery();
 
             closeConnection();
+           
             return noRows;
            
         }

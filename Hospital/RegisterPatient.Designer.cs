@@ -40,7 +40,7 @@
             this.txtbFirName = new System.Windows.Forms.TextBox();
             this.txtbLastName = new System.Windows.Forms.TextBox();
             this.txtbMail = new System.Windows.Forms.TextBox();
-            this.txtbNumber = new System.Windows.Forms.TextBox();
+            this.txtbAddress = new System.Windows.Forms.TextBox();
             this.dtbAge = new System.Windows.Forms.DateTimePicker();
             this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -102,9 +102,9 @@
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label6.Location = new System.Drawing.Point(104, 330);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(144, 25);
+            this.label6.Size = new System.Drawing.Size(85, 25);
             this.label6.TabIndex = 6;
-            this.label6.Text = "Mobile Number";
+            this.label6.Text = "Address";
             // 
             // label7
             // 
@@ -122,7 +122,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(90, 35);
             this.button2.TabIndex = 14;
-            this.button2.Text = "cancel";
+            this.button2.Text = "Go Back";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -154,12 +154,12 @@
             this.txtbMail.Size = new System.Drawing.Size(164, 26);
             this.txtbMail.TabIndex = 18;
             // 
-            // txtbNumber
+            // txtbAddress
             // 
-            this.txtbNumber.Location = new System.Drawing.Point(287, 330);
-            this.txtbNumber.Name = "txtbNumber";
-            this.txtbNumber.Size = new System.Drawing.Size(164, 26);
-            this.txtbNumber.TabIndex = 19;
+            this.txtbAddress.Location = new System.Drawing.Point(287, 330);
+            this.txtbAddress.Name = "txtbAddress";
+            this.txtbAddress.Size = new System.Drawing.Size(164, 26);
+            this.txtbAddress.TabIndex = 19;
             // 
             // dtbAge
             // 
@@ -187,7 +187,7 @@
             this.ClientSize = new System.Drawing.Size(619, 565);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.dtbAge);
-            this.Controls.Add(this.txtbNumber);
+            this.Controls.Add(this.txtbAddress);
             this.Controls.Add(this.txtbMail);
             this.Controls.Add(this.txtbLastName);
             this.Controls.Add(this.txtbFirName);
@@ -222,7 +222,7 @@
         private System.Windows.Forms.TextBox txtbFirName;
         private System.Windows.Forms.TextBox txtbLastName;
         private System.Windows.Forms.TextBox txtbMail;
-        private System.Windows.Forms.TextBox txtbNumber;
+        private System.Windows.Forms.TextBox txtbAddress;
         private System.Windows.Forms.DateTimePicker dtbAge;
         private System.Windows.Forms.Label label5;
     }

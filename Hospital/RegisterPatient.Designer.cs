@@ -163,7 +163,7 @@
             // 
             // dtbAge
             // 
-            this.dtbAge.CustomFormat = "dd-MM-yyyy";
+            this.dtbAge.CustomFormat = "yyyy-mm-dd";
             this.dtbAge.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtbAge.Location = new System.Drawing.Point(287, 391);
             this.dtbAge.Name = "dtbAge";

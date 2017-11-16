@@ -13,6 +13,7 @@ C:\Users\Samir\Desktop\Hospital\Hospital\bin\Debug\Data_log.ldf
 C:\Users\Samir\Desktop\Hospital\Hospital\bin\Debug\Hospital.exe.config
 C:\Users\Samir\Desktop\Hospital\Hospital\bin\Debug\Hospital.exe
 C:\Users\Samir\Desktop\Hospital\Hospital\bin\Debug\Hospital.pdb
+C:\Users\Samir\Desktop\Hospital\Hospital\obj\Debug\Hospital.CheckAvailability.resources
 C:\Users\Samir\Desktop\Hospital\Hospital\obj\Debug\Hospital.Login.resources
 C:\Users\Samir\Desktop\Hospital\Hospital\obj\Debug\Hospital.Main.resources
 C:\Users\Samir\Desktop\Hospital\Hospital\obj\Debug\Hospital.ManageAppoinments.resources
@@ -22,4 +23,3 @@ C:\Users\Samir\Desktop\Hospital\Hospital\obj\Debug\Hospital.csproj.GenerateResou
 C:\Users\Samir\Desktop\Hospital\Hospital\obj\Debug\Hospital.exe
 C:\Users\Samir\Desktop\Hospital\Hospital\obj\Debug\Hospital.pdb
 C:\Users\Samir\Desktop\Hospital\Hospital\obj\Debug\Hospital.csprojResolveAssemblyReference.cache
-C:\Users\Samir\Desktop\Hospital\Hospital\obj\Debug\Hospital.CheckAvailability.resources

@@ -39,6 +39,18 @@
             this.dtpAppDate = new System.Windows.Forms.DateTimePicker();
             this.btnCreate = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.txtAppID = new System.Windows.Forms.TextBox();
+            this.txtStID = new System.Windows.Forms.TextBox();
+            this.dtpNewDate = new System.Windows.Forms.DateTimePicker();
+            this.btnEdit = new System.Windows.Forms.Button();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.txtDelAppID = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -114,12 +126,13 @@
             // 
             // dtpAppDate
             // 
-            this.dtpAppDate.CustomFormat = "dd-MM-yyyy";
+            this.dtpAppDate.CustomFormat = "yyyy-mm-dd";
             this.dtpAppDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpAppDate.Location = new System.Drawing.Point(190, 287);
             this.dtpAppDate.Name = "dtpAppDate";
             this.dtpAppDate.Size = new System.Drawing.Size(141, 26);
             this.dtpAppDate.TabIndex = 12;
+            this.dtpAppDate.Value = new System.DateTime(2017, 11, 15, 1, 23, 24, 0);
             // 
             // btnCreate
             // 
@@ -142,11 +155,134 @@
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5.Location = new System.Drawing.Point(456, 55);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(235, 36);
+            this.label5.TabIndex = 15;
+            this.label5.Text = "Edit Appoinment";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label6.Location = new System.Drawing.Point(387, 142);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(141, 25);
+            this.label6.TabIndex = 16;
+            this.label6.Text = "Appoinment ID";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label8.Location = new System.Drawing.Point(387, 188);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(151, 25);
+            this.label8.TabIndex = 17;
+            this.label8.Text = "Change Staff ID";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label9.Location = new System.Drawing.Point(392, 233);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(259, 25);
+            this.label9.TabIndex = 18;
+            this.label9.Text = "Change Appoinment Date to";
+            // 
+            // txtAppID
+            // 
+            this.txtAppID.Location = new System.Drawing.Point(557, 140);
+            this.txtAppID.Name = "txtAppID";
+            this.txtAppID.Size = new System.Drawing.Size(134, 26);
+            this.txtAppID.TabIndex = 19;
+            // 
+            // txtStID
+            // 
+            this.txtStID.Location = new System.Drawing.Point(557, 186);
+            this.txtStID.Name = "txtStID";
+            this.txtStID.Size = new System.Drawing.Size(134, 26);
+            this.txtStID.TabIndex = 20;
+            // 
+            // dtpNewDate
+            // 
+            this.dtpNewDate.CustomFormat = "yyyy-mm-dd";
+            this.dtpNewDate.Location = new System.Drawing.Point(499, 288);
+            this.dtpNewDate.Name = "dtpNewDate";
+            this.dtpNewDate.Size = new System.Drawing.Size(192, 26);
+            this.dtpNewDate.TabIndex = 21;
+            // 
+            // btnEdit
+            // 
+            this.btnEdit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnEdit.Location = new System.Drawing.Point(499, 365);
+            this.btnEdit.Name = "btnEdit";
+            this.btnEdit.Size = new System.Drawing.Size(128, 46);
+            this.btnEdit.TabIndex = 22;
+            this.btnEdit.Text = "Edit";
+            this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label10.Location = new System.Drawing.Point(844, 55);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(267, 36);
+            this.label10.TabIndex = 23;
+            this.label10.Text = "Delete Appoinment";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label11.Location = new System.Drawing.Point(890, 139);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(141, 25);
+            this.label11.TabIndex = 24;
+            this.label11.Text = "Appoinment ID";
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnDelete.Location = new System.Drawing.Point(895, 365);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(136, 46);
+            this.btnDelete.TabIndex = 25;
+            this.btnDelete.Text = "Delete";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // txtDelAppID
+            // 
+            this.txtDelAppID.Location = new System.Drawing.Point(878, 185);
+            this.txtDelAppID.Name = "txtDelAppID";
+            this.txtDelAppID.Size = new System.Drawing.Size(168, 26);
+            this.txtDelAppID.TabIndex = 26;
+            // 
             // ManageAppoinments
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1211, 612);
+            this.Controls.Add(this.txtDelAppID);
+            this.Controls.Add(this.btnDelete);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.btnEdit);
+            this.Controls.Add(this.dtpNewDate);
+            this.Controls.Add(this.txtStID);
+            this.Controls.Add(this.txtAppID);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnCreate);
             this.Controls.Add(this.dtpAppDate);
@@ -179,5 +315,17 @@
         private System.Windows.Forms.DateTimePicker dtpAppDate;
         private System.Windows.Forms.Button btnCreate;
         private System.Windows.Forms.Button btnClose;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox txtAppID;
+        private System.Windows.Forms.TextBox txtStID;
+        private System.Windows.Forms.DateTimePicker dtpNewDate;
+        private System.Windows.Forms.Button btnEdit;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.TextBox txtDelAppID;
     }
 }

@@ -55,5 +55,12 @@ namespace Hospital
             cv.Show();
             this.Hide();
         }
+
+        private void btnPrescription_Click(object sender, EventArgs e)
+        {
+            Prescriptions pr = new Prescriptions();
+            pr.Show();
+            this.Hide();
+        }
     }
 }

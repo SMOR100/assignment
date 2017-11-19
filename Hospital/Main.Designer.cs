@@ -35,6 +35,7 @@
             this.button5 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.Button();
+            this.btnPrescription = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnReg_Pat
@@ -52,9 +53,9 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Corbel", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.Location = new System.Drawing.Point(482, 181);
+            this.button2.Location = new System.Drawing.Point(473, 181);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(141, 66);
+            this.button2.Size = new System.Drawing.Size(183, 66);
             this.button2.TabIndex = 1;
             this.button2.Text = "Manage Appoinments";
             this.button2.UseVisualStyleBackColor = true;
@@ -62,18 +63,18 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(292, 181);
+            this.button3.Location = new System.Drawing.Point(297, 181);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(126, 66);
+            this.button3.Size = new System.Drawing.Size(139, 66);
             this.button3.TabIndex = 2;
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(408, 285);
+            this.button4.Location = new System.Drawing.Point(473, 285);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(215, 60);
+            this.button4.Size = new System.Drawing.Size(183, 60);
             this.button4.TabIndex = 3;
             this.button4.Text = "button4";
             this.button4.UseVisualStyleBackColor = true;
@@ -111,12 +112,24 @@
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
+            // btnPrescription
+            // 
+            this.btnPrescription.Font = new System.Drawing.Font("Corbel", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnPrescription.Location = new System.Drawing.Point(307, 285);
+            this.btnPrescription.Name = "btnPrescription";
+            this.btnPrescription.Size = new System.Drawing.Size(129, 60);
+            this.btnPrescription.TabIndex = 7;
+            this.btnPrescription.Text = "Prescriptions";
+            this.btnPrescription.UseVisualStyleBackColor = true;
+            this.btnPrescription.Click += new System.EventHandler(this.btnPrescription_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
-            this.ClientSize = new System.Drawing.Size(687, 514);
+            this.ClientSize = new System.Drawing.Size(745, 514);
+            this.Controls.Add(this.btnPrescription);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button5);
@@ -141,5 +154,6 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Button btnPrescription;
     }
 }

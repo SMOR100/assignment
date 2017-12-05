@@ -22,11 +22,6 @@ namespace Hospital
 
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnReg_Pat_Click(object sender, EventArgs e)
         {
             // Show register patient menu
@@ -46,13 +41,6 @@ namespace Hospital
         {
             ManageAppoinments ma = new ManageAppoinments();
             ma.Show();
-            this.Hide();
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            CheckAvailability cv = new CheckAvailability();
-            cv.Show();
             this.Hide();
         }
 

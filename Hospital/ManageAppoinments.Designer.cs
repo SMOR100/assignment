@@ -97,7 +97,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label7.Location = new System.Drawing.Point(13, 288);
+            this.label7.Location = new System.Drawing.Point(12, 288);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(163, 25);
             this.label7.TabIndex = 6;
@@ -107,6 +107,7 @@
             // 
             this.txtbAppID.Location = new System.Drawing.Point(175, 141);
             this.txtbAppID.Name = "txtbAppID";
+            this.txtbAppID.ReadOnly = true;
             this.txtbAppID.Size = new System.Drawing.Size(156, 26);
             this.txtbAppID.TabIndex = 7;
             // 
@@ -127,10 +128,9 @@
             // dtpAppDate
             // 
             this.dtpAppDate.CustomFormat = "yyyy-mm-dd";
-            this.dtpAppDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpAppDate.Location = new System.Drawing.Point(190, 287);
             this.dtpAppDate.Name = "dtpAppDate";
-            this.dtpAppDate.Size = new System.Drawing.Size(141, 26);
+            this.dtpAppDate.Size = new System.Drawing.Size(168, 26);
             this.dtpAppDate.TabIndex = 12;
             this.dtpAppDate.Value = new System.DateTime(2017, 11, 15, 1, 23, 24, 0);
             // 

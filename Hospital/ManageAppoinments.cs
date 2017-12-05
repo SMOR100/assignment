@@ -19,6 +19,14 @@ namespace Hospital
 
         private void ManageAppoinments_Load(object sender, EventArgs e)
         {
+           
+            string query = "Select isnull(max(cast(AppID as int)),0)+1 From Appoinment";
+
+            int id = DatabaseConnection.getInstance().UniqueID(query);
+
+            txtbAppID.Text = (id).ToString();
+            this.ActiveControl = txtbPatID;
+
 
         }
 
@@ -35,7 +43,7 @@ namespace Hospital
             if (dtt.Rows.Count == 1)
             {
                 // query for adding data to database
-                string query = "Insert Into Appoinment (AppID, PatientID, StaffID, AppDate) Values ('" + txtbAppID.Text + "','" + txtbPatID.Text + "','" + txtbStaffID.Text + "', '" + dtpAppDate.Text + "')";
+                string query = "Insert Into Appoinment (AppID, PatientID, StaffID, AppDate) Values ('"+ txtbAppID.Text + "','" + txtbPatID.Text + "','" + txtbStaffID.Text + "', '" + dtpAppDate.Text + "')";
                 int rows = DatabaseConnection.getInstance().insert(query);
 
                 try 
@@ -78,7 +86,7 @@ namespace Hospital
             if(nn.Rows.Count == 1)
             {
                 // Edit appoinment details 
-                string query = "Update Appoinment Set StaffID = '" + txtbStaffID.Text + "', AppDate = '" + dtpNewDate.Text + "' Where AppID = '" + txtAppID.Text + "'";
+                string query = "Update Appoinment Set StaffID = '" + txtStID.Text + "', AppDate = '" + dtpNewDate.Text + "' Where AppID = '" + txtAppID.Text + "'";
                 int data = DatabaseConnection.getInstance().insert(query);
 
                 try

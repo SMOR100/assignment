@@ -80,6 +80,25 @@ namespace Hospital
            
         }
 
+        public int UniqueID(string Query)
+        {
+            
 
+            SqlCommand command = new SqlCommand();
+            command.CommandType = CommandType.Text;
+            command.CommandText = Query;
+
+            openConnection();
+
+            command.Connection = _connectionToDB;
+
+            Int32 max = (Int32)command.ExecuteScalar();
+
+            closeConnection();
+
+            return max;
+
+
+        }
     }
 }

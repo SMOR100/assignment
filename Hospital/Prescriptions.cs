@@ -79,5 +79,10 @@ namespace Hospital
             //Title and fonts' of it
             e.Graphics.DrawString("Print Patient Info", new Font("Corbel", 20, FontStyle.Regular), Brushes.Black, new Point(300,30));
         }
+
+        private void Prescriptions_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

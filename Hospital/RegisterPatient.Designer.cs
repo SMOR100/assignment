@@ -28,14 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnRegister = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
             this.txtbID = new System.Windows.Forms.TextBox();
             this.txtbFirName = new System.Windows.Forms.TextBox();
             this.txtbLastName = new System.Windows.Forms.TextBox();
@@ -45,16 +45,16 @@
             this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // btnRegister
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(287, 473);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(130, 48);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Register";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnRegister.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnRegister.Location = new System.Drawing.Point(287, 473);
+            this.btnRegister.Name = "btnRegister";
+            this.btnRegister.Size = new System.Drawing.Size(130, 48);
+            this.btnRegister.TabIndex = 0;
+            this.btnRegister.Text = "Register";
+            this.btnRegister.UseVisualStyleBackColor = true;
+            this.btnRegister.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -116,20 +116,21 @@
             this.label7.TabIndex = 13;
             this.label7.Text = "Register Patient Menu";
             // 
-            // button2
+            // btnClose
             // 
-            this.button2.Location = new System.Drawing.Point(452, 486);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(90, 35);
-            this.button2.TabIndex = 14;
-            this.button2.Text = "Go Back";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnClose.Location = new System.Drawing.Point(452, 486);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(90, 35);
+            this.btnClose.TabIndex = 14;
+            this.btnClose.Text = "Go Back";
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.button2_Click);
             // 
             // txtbID
             // 
             this.txtbID.Location = new System.Drawing.Point(287, 115);
             this.txtbID.Name = "txtbID";
+            this.txtbID.ReadOnly = true;
             this.txtbID.Size = new System.Drawing.Size(164, 26);
             this.txtbID.TabIndex = 15;
             // 
@@ -164,10 +165,9 @@
             // dtbAge
             // 
             this.dtbAge.CustomFormat = "yyyy-mm-dd";
-            this.dtbAge.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtbAge.Location = new System.Drawing.Point(287, 391);
             this.dtbAge.Name = "dtbAge";
-            this.dtbAge.Size = new System.Drawing.Size(164, 26);
+            this.dtbAge.Size = new System.Drawing.Size(198, 26);
             this.dtbAge.TabIndex = 21;
             // 
             // label5
@@ -192,14 +192,14 @@
             this.Controls.Add(this.txtbLastName);
             this.Controls.Add(this.txtbFirName);
             this.Controls.Add(this.txtbID);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnClose);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnRegister);
             this.Name = "RegisterPatient";
             this.Text = "RegisterPatient";
             this.Load += new System.EventHandler(this.RegisterPatient_Load);
@@ -210,14 +210,14 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnRegister;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.TextBox txtbID;
         private System.Windows.Forms.TextBox txtbFirName;
         private System.Windows.Forms.TextBox txtbLastName;

@@ -171,6 +171,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Prescriptions";
             this.Text = "Prescriptions";
+            this.Load += new System.EventHandler(this.Prescriptions_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

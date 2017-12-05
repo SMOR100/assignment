@@ -19,7 +19,12 @@ namespace Hospital
 
         private void RegisterPatient_Load(object sender, EventArgs e)
         {
+            string query = "Select isnull(max(cast(PatientID as int)),0)+1 From Patient";
 
+            int id = DatabaseConnection.getInstance().UniqueID(query);
+
+            txtbID.Text = (id).ToString();
+            this.ActiveControl = txtbFirName;
         }
 
         private void button2_Click(object sender, EventArgs e)

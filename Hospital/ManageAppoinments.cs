@@ -117,7 +117,7 @@ namespace Hospital
             // if exist 
             if (nn.Rows.Count == 1)
             {
-                string query = "Delete From Appoinment Where AppID='" + txtDelAppID + "'";
+                string query = "Delete From Appoinment Where AppID='" + txtDelAppID.Text + "'";
                 int aa = DatabaseConnection.getInstance().insert(query);
 
                 try

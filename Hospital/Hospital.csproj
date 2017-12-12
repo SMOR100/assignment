@@ -68,6 +68,12 @@
       <DependentUpon>CheckAvailability.cs</DependentUpon>
     </Compile>
     <Compile Include="DatabaseConnection.cs" />
+    <Compile Include="Find Patient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Find Patient.Designer.cs">
+      <DependentUpon>Find Patient.cs</DependentUpon>
+    </Compile>
     <Compile Include="List.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -101,8 +107,17 @@
     <Compile Include="RegisterPatient.Designer.cs">
       <DependentUpon>RegisterPatient.cs</DependentUpon>
     </Compile>
+    <Compile Include="ViewStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewStaff.Designer.cs">
+      <DependentUpon>ViewStaff.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="CheckAvailability.resx">
       <DependentUpon>CheckAvailability.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Find Patient.resx">
+      <DependentUpon>Find Patient.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -127,6 +142,9 @@
     </Compile>
     <EmbeddedResource Include="RegisterPatient.resx">
       <DependentUpon>RegisterPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewStaff.resx">
+      <DependentUpon>ViewStaff.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -48,7 +48,7 @@ namespace Hospital
         //Close connection
         public void closeConnection()
         {
-            _connectionToDB.Close();
+           _connectionToDB.Close();
         }
 
         public DataSet getDataSet (String sqlStatement)

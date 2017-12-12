@@ -50,5 +50,19 @@ namespace Hospital
             pr.Show();
             this.Hide();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            ViewStaff vs = new ViewStaff();
+            vs.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FindPatient fp = new FindPatient();
+            fp.Show();
+            this.Hide();
+        }
     }
 }

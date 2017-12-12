@@ -21,6 +21,7 @@ namespace Hospital
             
         }
 
+
         private void btnLogin_Click(object sender, EventArgs e)
         {
             // Create a query to get data from database
@@ -54,6 +55,11 @@ namespace Hospital
         {
             // close the program
             Application.Exit();
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

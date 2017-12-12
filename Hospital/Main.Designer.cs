@@ -41,9 +41,10 @@
             // 
             this.btnReg_Pat.Font = new System.Drawing.Font("Corbel", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnReg_Pat.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnReg_Pat.Location = new System.Drawing.Point(76, 181);
+            this.btnReg_Pat.Location = new System.Drawing.Point(51, 118);
+            this.btnReg_Pat.Margin = new System.Windows.Forms.Padding(2);
             this.btnReg_Pat.Name = "btnReg_Pat";
-            this.btnReg_Pat.Size = new System.Drawing.Size(163, 66);
+            this.btnReg_Pat.Size = new System.Drawing.Size(109, 43);
             this.btnReg_Pat.TabIndex = 0;
             this.btnReg_Pat.Text = "Register Patient";
             this.btnReg_Pat.UseVisualStyleBackColor = true;
@@ -52,9 +53,10 @@
             // btnManage_Appoinment
             // 
             this.btnManage_Appoinment.Font = new System.Drawing.Font("Corbel", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btnManage_Appoinment.Location = new System.Drawing.Point(473, 181);
+            this.btnManage_Appoinment.Location = new System.Drawing.Point(315, 118);
+            this.btnManage_Appoinment.Margin = new System.Windows.Forms.Padding(2);
             this.btnManage_Appoinment.Name = "btnManage_Appoinment";
-            this.btnManage_Appoinment.Size = new System.Drawing.Size(183, 66);
+            this.btnManage_Appoinment.Size = new System.Drawing.Size(122, 43);
             this.btnManage_Appoinment.TabIndex = 1;
             this.btnManage_Appoinment.Text = "Manage Appoinments";
             this.btnManage_Appoinment.UseVisualStyleBackColor = true;
@@ -62,39 +64,45 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(76, 285);
+            this.button3.Location = new System.Drawing.Point(51, 185);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(139, 66);
+            this.button3.Size = new System.Drawing.Size(93, 43);
             this.button3.TabIndex = 2;
-            this.button3.Text = "button3";
+            this.button3.Text = "Find Patient";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(473, 285);
+            this.button4.Location = new System.Drawing.Point(315, 185);
+            this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(183, 60);
+            this.button4.Size = new System.Drawing.Size(122, 39);
             this.button4.TabIndex = 3;
-            this.button4.Text = "button4";
+            this.button4.Text = "Staff on Duty";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.Brown;
-            this.label1.Location = new System.Drawing.Point(110, 26);
+            this.label1.Location = new System.Drawing.Point(73, 17);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(502, 46);
+            this.label1.Size = new System.Drawing.Size(347, 31);
             this.label1.TabIndex = 5;
             this.label1.Text = "Welcome to Over Surgery";
             // 
             // btnExit
             // 
             this.btnExit.Font = new System.Drawing.Font("Corbel", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btnExit.Location = new System.Drawing.Point(525, 449);
+            this.btnExit.Location = new System.Drawing.Point(350, 292);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(2);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(98, 42);
+            this.btnExit.Size = new System.Drawing.Size(65, 27);
             this.btnExit.TabIndex = 6;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
@@ -103,9 +111,10 @@
             // btnPrescription
             // 
             this.btnPrescription.Font = new System.Drawing.Font("Corbel", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btnPrescription.Location = new System.Drawing.Point(299, 181);
+            this.btnPrescription.Location = new System.Drawing.Point(199, 118);
+            this.btnPrescription.Margin = new System.Windows.Forms.Padding(2);
             this.btnPrescription.Name = "btnPrescription";
-            this.btnPrescription.Size = new System.Drawing.Size(129, 60);
+            this.btnPrescription.Size = new System.Drawing.Size(86, 39);
             this.btnPrescription.TabIndex = 7;
             this.btnPrescription.Text = "Prescriptions";
             this.btnPrescription.UseVisualStyleBackColor = true;
@@ -113,10 +122,10 @@
             // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
-            this.ClientSize = new System.Drawing.Size(745, 514);
+            this.ClientSize = new System.Drawing.Size(497, 334);
             this.Controls.Add(this.btnPrescription);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.label1);
@@ -124,6 +133,7 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.btnManage_Appoinment);
             this.Controls.Add(this.btnReg_Pat);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Main";
             this.Text = "Main";
             this.Load += new System.EventHandler(this.Main_Load);

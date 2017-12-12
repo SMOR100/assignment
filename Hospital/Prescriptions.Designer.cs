@@ -48,18 +48,20 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(150, 122);
+            this.label1.Location = new System.Drawing.Point(100, 79);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(133, 25);
+            this.label1.Size = new System.Drawing.Size(96, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "PrescriptionID";
             // 
             // btnSave
             // 
             this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.btnSave.Location = new System.Drawing.Point(396, 247);
+            this.btnSave.Location = new System.Drawing.Point(264, 161);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(101, 53);
+            this.btnSave.Size = new System.Drawing.Size(67, 34);
             this.btnSave.TabIndex = 1;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
@@ -68,9 +70,10 @@
             // btnShowPatientInfo
             // 
             this.btnShowPatientInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.btnShowPatientInfo.Location = new System.Drawing.Point(220, 463);
+            this.btnShowPatientInfo.Location = new System.Drawing.Point(147, 301);
+            this.btnShowPatientInfo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnShowPatientInfo.Name = "btnShowPatientInfo";
-            this.btnShowPatientInfo.Size = new System.Drawing.Size(153, 68);
+            this.btnShowPatientInfo.Size = new System.Drawing.Size(102, 44);
             this.btnShowPatientInfo.TabIndex = 2;
             this.btnShowPatientInfo.Text = "Show Patient Info";
             this.btnShowPatientInfo.UseVisualStyleBackColor = true;
@@ -78,9 +81,10 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(747, 511);
+            this.btnExit.Location = new System.Drawing.Point(498, 332);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(111, 39);
+            this.btnExit.Size = new System.Drawing.Size(74, 25);
             this.btnExit.TabIndex = 3;
             this.btnExit.Text = "Go Back";
             this.btnExit.UseVisualStyleBackColor = true;
@@ -88,53 +92,59 @@
             // 
             // txtPrescriptionID
             // 
-            this.txtPrescriptionID.Location = new System.Drawing.Point(369, 121);
+            this.txtPrescriptionID.Location = new System.Drawing.Point(246, 79);
+            this.txtPrescriptionID.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtPrescriptionID.Name = "txtPrescriptionID";
-            this.txtPrescriptionID.Size = new System.Drawing.Size(263, 26);
+            this.txtPrescriptionID.Size = new System.Drawing.Size(177, 20);
             this.txtPrescriptionID.TabIndex = 4;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label2.Location = new System.Drawing.Point(103, 194);
+            this.label2.Location = new System.Drawing.Point(69, 126);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(180, 25);
+            this.label2.Size = new System.Drawing.Size(130, 17);
             this.label2.TabIndex = 5;
             this.label2.Text = "Extend Prescription";
             // 
             // txtExtendPres
             // 
-            this.txtExtendPres.Location = new System.Drawing.Point(369, 194);
+            this.txtExtendPres.Location = new System.Drawing.Point(246, 126);
+            this.txtExtendPres.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtExtendPres.Name = "txtExtendPres";
-            this.txtExtendPres.Size = new System.Drawing.Size(263, 26);
+            this.txtExtendPres.Size = new System.Drawing.Size(177, 20);
             this.txtExtendPres.TabIndex = 6;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.label3.Location = new System.Drawing.Point(224, 25);
+            this.label3.Location = new System.Drawing.Point(149, 16);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(473, 36);
+            this.label3.Size = new System.Drawing.Size(309, 25);
             this.label3.TabIndex = 7;
             this.label3.Text = "Patient Info and Prescription Menu";
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(36, 321);
+            this.dataGridView1.Location = new System.Drawing.Point(24, 209);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(822, 123);
+            this.dataGridView1.Size = new System.Drawing.Size(548, 80);
             this.dataGridView1.TabIndex = 8;
             // 
             // btnPrint
             // 
             this.btnPrint.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.btnPrint.Location = new System.Drawing.Point(457, 481);
+            this.btnPrint.Location = new System.Drawing.Point(305, 313);
+            this.btnPrint.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnPrint.Name = "btnPrint";
-            this.btnPrint.Size = new System.Drawing.Size(131, 50);
+            this.btnPrint.Size = new System.Drawing.Size(87, 32);
             this.btnPrint.TabIndex = 9;
             this.btnPrint.Text = "Print Results";
             this.btnPrint.UseVisualStyleBackColor = true;
@@ -156,9 +166,9 @@
             // 
             // Prescriptions
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(904, 562);
+            this.ClientSize = new System.Drawing.Size(603, 365);
             this.Controls.Add(this.btnPrint);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label3);
@@ -169,6 +179,7 @@
             this.Controls.Add(this.btnShowPatientInfo);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Prescriptions";
             this.Text = "Prescriptions";
             this.Load += new System.EventHandler(this.Prescriptions_Load);

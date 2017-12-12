@@ -40,3 +40,23 @@ D:\Program Files (x86)\Git\assignment\Hospital\obj\Debug\Hospital.Prescriptions.
 D:\Program Files (x86)\Git\assignment\Hospital\obj\Debug\Hospital.Properties.Resources.resources
 D:\Program Files (x86)\Git\assignment\Hospital\obj\Debug\Hospital.RegisterPatient.resources
 D:\Program Files (x86)\Git\assignment\Hospital\obj\Debug\Hospital.csproj.GenerateResource.Cache
+D:\Program Files (x86)\Git\assignment\Hospital\obj\Debug\Hospital.ViewStaff.resources
+D:\Program Files (x86)\Git\assignment\Hospital\obj\Debug\Hospital.FindPatient.resources
+D:\GITHUB\assignment1\Hospital\bin\Debug\Data.mdf
+D:\GITHUB\assignment1\Hospital\bin\Debug\Data_log.ldf
+D:\GITHUB\assignment1\Hospital\bin\Debug\Hospital.exe.config
+D:\GITHUB\assignment1\Hospital\bin\Debug\Hospital.exe
+D:\GITHUB\assignment1\Hospital\bin\Debug\Hospital.pdb
+D:\GITHUB\assignment1\Hospital\obj\Debug\Hospital.csprojResolveAssemblyReference.cache
+D:\GITHUB\assignment1\Hospital\obj\Debug\Hospital.CheckAvailability.resources
+D:\GITHUB\assignment1\Hospital\obj\Debug\Hospital.FindPatient.resources
+D:\GITHUB\assignment1\Hospital\obj\Debug\Hospital.Login.resources
+D:\GITHUB\assignment1\Hospital\obj\Debug\Hospital.Main.resources
+D:\GITHUB\assignment1\Hospital\obj\Debug\Hospital.ManageAppoinments.resources
+D:\GITHUB\assignment1\Hospital\obj\Debug\Hospital.Prescriptions.resources
+D:\GITHUB\assignment1\Hospital\obj\Debug\Hospital.Properties.Resources.resources
+D:\GITHUB\assignment1\Hospital\obj\Debug\Hospital.RegisterPatient.resources
+D:\GITHUB\assignment1\Hospital\obj\Debug\Hospital.ViewStaff.resources
+D:\GITHUB\assignment1\Hospital\obj\Debug\Hospital.csproj.GenerateResource.Cache
+D:\GITHUB\assignment1\Hospital\obj\Debug\Hospital.exe
+D:\GITHUB\assignment1\Hospital\obj\Debug\Hospital.pdb

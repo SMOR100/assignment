@@ -20,7 +20,6 @@ namespace Hospital
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
-
             Main m = new Main();
             m.Show();
         }

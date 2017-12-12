@@ -16,7 +16,11 @@ namespace Hospital
         public Login()
         {
             InitializeComponent();
+            textBox2.PasswordChar = '*';
+            textBox2.MaxLength = 10;
+            
         }
+
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
@@ -51,6 +55,11 @@ namespace Hospital
         {
             // close the program
             Application.Exit();
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
